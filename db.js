@@ -33,7 +33,7 @@ const purchaseSchema = new Schema({
 const userModel = mongo.model("users", user)
 const courseModel = mongo.model("courses", course)
 const adminModel = mongo.model("admin", admin)
-const purchaseModel = mongo.model("admin", purchaseSchema)
+const purchaseModel = mongo.model("purchases", purchaseSchema)
 
 module.exports = {
     userModel,
